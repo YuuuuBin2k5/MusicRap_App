@@ -1,3 +1,10 @@
-node_modules/
-dist/
-build/
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+
+export default defineConfig({
+  plugins: [react()],
+  base: '/MusicRap_App/', // Thay bằng đúng tên repo của bạn trên GitHub
+});
+
+node_modules
